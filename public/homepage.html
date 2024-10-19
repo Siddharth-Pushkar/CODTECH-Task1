@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/homepage.css">
+    <title>WeatherBox</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>WeatherBox</h1>
+        </div>
+        <nav>
+            <div class="hamburger" id="hamburger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Today's Weather</a></li>
+                <li><a href="#">Weekly Forecast</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="weather-info">
+            <h2>Welcome to the Weather Forecast</h2>
+            <p>Get real-time updates on weather conditions in your area.</p>
+        </section>
+    </main>
+
+    <div class="container2">
+        <h1>Weather Forecast</h1>
+        <input type="text" id="city" placeholder="Enter city name" />
+        <input type="email" id="email" placeholder="Enter your email" /> 
+        <button id="search">Search</button>
+        <button id="send-email">Send Email Update</button> ś
+        <div id="weather-result">
+            <div id="current-weather-box" class="current-weather"></div>
+            <div class="forecast-boxes">
+                <div id="day1" class="forecast-box"></div>
+                <div id="day2" class="forecast-box"></div>
+                <div id="day3" class="forecast-box"></div>
+                <div id="day4" class="forecast-box"></div>
+                <div id="day5" class="forecast-box"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
